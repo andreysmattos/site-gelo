@@ -1,0 +1,402 @@
+body {
+	overflow-x: hidden;
+	font-family: Lato;
+
+}
+
+p, a, span {
+	font-family: 'Myriad Pro';
+}
+
+
+.dropdown-menu.show {
+	background: #000;
+	padding: 0;
+}
+
+.dropdown-menu.show > a.dropdown-item {
+	color: #fff !important;
+	text-transform: none;
+	transition: .3s;
+
+}
+
+.dropdown-menu.show > a.dropdown-item:hover {
+	background-color: #e9484c;
+}
+
+ul.navbar-nav li a {
+	color: #000 !important;
+	text-transform: uppercase;
+}
+
+.bg-brand {
+	width: 170px;
+	height: 90px;
+	background-color: #000;
+	border: solid 4px #000;
+	position: relative;
+	transition: 0.5s;
+}
+
+.bg-brand:hover {
+	background-color: #fff;
+
+}
+
+.bg-brand:hover .brand{
+	color: #000;
+	border-color: #000;
+	text-decoration: none;
+
+}
+
+.navbar-nav {
+	margin-left: auto;
+}
+
+
+.brand {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #fff;
+	text-decoration: none;
+	font-size: 27px;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+.brand:hover {
+
+}
+
+
+.banner {
+	width: 100%;
+	height: 380px;
+	background-color: red;
+}
+
+.conteudo {
+	max-width: 55%;
+	margin-top: 50px;
+	margin-left: 50px;
+
+}
+
+.conteudo p {
+	font-family: 'Myriad Pro';
+	color:  #212121;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+	line-height: 24px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.conteudo h1 {
+	font-family: Lato;
+	font-size: 30px;
+	color: #212121;
+	font-weight: 900;
+
+}
+
+.conheca {
+	width: 230px;
+	height: 42px;
+}
+
+.saibamais {
+	width: 170px;
+	height: 42px;
+}
+
+.btn-conheca {
+	background: #000;
+	color: #fff;
+	font-size: 12px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: .5s;
+}
+
+.btn-conheca:hover {
+	background: #e9484c;
+
+}
+
+.artigo-servico {
+	min-height: 215px;
+
+}
+
+
+.artigo-servico h1 {
+	font-size: 18px;
+	font-weight: 900;
+	color: #000;
+
+}
+
+.artigo-servico p {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+}
+
+.servicos {
+	background-color: #efefef;
+	padding-top: 50px;
+}
+
+.div-img-noticia {
+	height: 165px;
+	overflow: hidden;
+}
+
+.div-texto-noticia {
+	background-color: #000;
+	padding: 30px 15px 20px 10px;
+	max-height: 100%;
+}
+
+.div-texto-noticia p {
+	color: #79d1da;
+	font-family: 'Myriad Pro';
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.05px;
+}
+
+.div-texto-noticia h4 {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 900;
+}
+
+.article-img {
+	max-width: 368px;
+	margin: 10px auto;
+}
+
+
+.full_banner img {
+	max-height: 560px;
+}
+
+section.full_banner .carousel-indicators li {
+	height: 8px;
+	width: 8px;
+	background: white;
+	border-radius: 50%;
+}
+
+section.full_banner .carousel-indicators li.active {
+	background: #000;
+}
+
+
+section.full_banner .fas.fa-angle-left, section.full_banner .fas.fa-angle-right {
+	font-size: 2.5rem;
+	width: 2.5rem;
+	height:2.5rem;
+	background-color: #fff;
+	color: #000;
+	border: solid #fff;
+}
+
+section#noticias header {
+	position: relative;
+}
+
+.icones-noticias {
+	position: absolute;
+	top:0;
+	right: 0;
+}
+
+
+#noticias {
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+#noticias h1 {
+	font-family: Lato;
+	color:  #212121;
+	font-size: 30px;
+	font-weight: 900;
+	text-align: left;
+}
+
+
+section#noticias .fas.fa-angle-left, section#noticias .fas.fa-angle-right {
+	font-size: 30px;
+	padding:7px 10px;
+	background-color: #000;
+	color: #fff;
+	border: solid 2px black;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+
+
+section#noticias .fas.fa-angle-left:hover, section#noticias .fas.fa-angle-right:hover {
+	background-color: transparent;
+	color: #000;
+}
+
+.icones-noticias {
+	text-align: right;
+}
+
+
+footer section {
+	padding: 2em;
+}
+
+footer .text {
+	font-family: 'Myriad Pro';
+	color:  #fff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.35px;
+	line-height: 24px;
+	text-align: center;
+	position: relative;
+
+}
+
+
+footer .text p {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#logo-footer {
+	position: relative;
+}
+
+footer {
+	background: #000;
+}
+
+footer .logo {
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 110px;
+	height: 65px;
+	background-color: transparent;
+	border: solid 3px #fff;
+	text-align: center;
+	
+	position: relative;
+
+}
+
+footer .logo a {
+	font-size: 36px;
+	line-height: 36px;
+	font-family: Lato;
+	color: #fff;	
+	text-decoration: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: 900;
+
+}
+
+
+
+section#noticias > div.container {
+	position:;
+}
+
+
+@media (max-width: 1200px) 
+{
+	.conteudo {
+		margin-top: 10px;
+		max-width: 80%;
+	}
+}
+
+@media (max-width: 991px) 
+{
+	.conteudo {
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	
+
+	.artigo-servico {
+		text-align: center;
+	}
+
+	.banner-vermelho {
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) 
+{
+	footer .text {
+		margin: 35px;
+	}
+}
+
+
+
+
+
+.flip-container { 
+	perspective: 1000; 
+	margin: 0 auto;
+}  	
+
+.flip-container.hover .flipper {  		
+	transform: rotateY(180deg);  	
+}    
+
+
+.flip-container, .front, .back {  	
+	width: 320px;  	
+	height: 350px;  
+}
+
+.flipper {  	
+	transition: 0.6s;  	
+	transform-style: preserve-3d;    	
+	position: relative;  
+}
+
+.front, .back {  	
+	backface-visibility: hidden;    	
+	position: absolute;  	
+	top: 0;  	
+	left: 0;  
+}
+
+.front { z-index: 2;  
+}    
+
+.back { transform: rotateY(180deg); 
+}
+
+.flip-container.hover .flipper, 
+.flip-container.flip .flipper {  	
+	transform: rotateY(180deg);  
+}
